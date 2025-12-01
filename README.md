@@ -1,3 +1,3 @@
-# cretancretin.github.io
+#qopus
 
-personal site
+A browser-based universal CA engine.
