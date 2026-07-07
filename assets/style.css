@@ -1,6 +1,7 @@
 /* mentistics commons — attestation paper */
 
 :root {
+  color-scheme: light;
   --paper: #f2f4f2;
   --paper-deep: #e9edea;
   --ink: #1c2624;
@@ -11,9 +12,47 @@
   --banner-bg: #e3ebe6;
   --banner-edge: #b9cdc4;
   --rule: #ccd6d1;
+  --oxide-wash: rgba(163, 74, 60, 0.07);
+  --banner-code-bg: rgba(255, 255, 255, 0.55);
   --mono: "IBM Plex Mono", ui-monospace, monospace;
   --body: "Newsreader", georgia, serif;
   --display: "Spectral", georgia, serif;
+}
+
+/* night register — the same paper, read at low light */
+html[data-theme="night"] {
+  color-scheme: dark;
+  --paper: #161c1a;
+  --paper-deep: #121715;
+  --ink: #d5dcd7;
+  --slate: #92a29e;
+  --verdigris: #64ac96;
+  --verdigris-dim: #4d8579;
+  --oxide: #cf7a66;
+  --banner-bg: #1c2622;
+  --banner-edge: #31423b;
+  --rule: #293331;
+  --oxide-wash: rgba(207, 122, 102, 0.1);
+  --banner-code-bg: rgba(0, 0, 0, 0.35);
+}
+
+/* no-JS fallback: follow the OS unless a register was chosen */
+@media (prefers-color-scheme: dark) {
+  html:not([data-theme="day"]) {
+    color-scheme: dark;
+    --paper: #161c1a;
+    --paper-deep: #121715;
+    --ink: #d5dcd7;
+    --slate: #92a29e;
+    --verdigris: #64ac96;
+    --verdigris-dim: #4d8579;
+    --oxide: #cf7a66;
+    --banner-bg: #1c2622;
+    --banner-edge: #31423b;
+    --rule: #293331;
+    --oxide-wash: rgba(207, 122, 102, 0.1);
+    --banner-code-bg: rgba(0, 0, 0, 0.35);
+  }
 }
 
 * { box-sizing: border-box; }
@@ -62,6 +101,22 @@ body {
 }
 
 .nav-toggle { display: none; }
+
+.register-toggle {
+  display: inline-block;
+  font-family: var(--mono);
+  font-size: 0.62rem;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  background: none;
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  color: var(--slate);
+  padding: 0.28rem 0.6rem;
+  cursor: pointer;
+  margin: -0.6rem 0 1.4rem;
+}
+.register-toggle:hover { color: var(--verdigris); border-color: var(--verdigris-dim); }
 
 .nav-group { margin-bottom: 1.25rem; }
 .nav-group h3 {
@@ -127,7 +182,7 @@ a.redlink {
   border-bottom: 1px dotted var(--oxide);
   cursor: help;
 }
-a.redlink:hover { background: rgba(163, 74, 60, 0.07); }
+a.redlink:hover { background: var(--oxide-wash); }
 .selflink { font-weight: 500; }
 
 /* ------------------------------------------------ certification banner */
@@ -162,7 +217,7 @@ a.redlink:hover { background: rgba(163, 74, 60, 0.07); }
 }
 .banner-body p { margin: 0.4rem 0; }
 .banner-body p:first-child { margin-top: 0; }
-.banner code { background: rgba(255,255,255,0.55); }
+.banner code { background: var(--banner-code-bg); }
 
 .banner.declined { border-left-color: var(--oxide); }
 .banner.declined .banner-seal, .banner.declined .banner-word { color: var(--oxide); }

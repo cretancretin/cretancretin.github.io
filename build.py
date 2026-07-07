@@ -29,6 +29,13 @@ SLUGS = {
     "The Second Fission": "the_second_fission",
     "The Open-Orbit Reclassification": "the_open_orbit_reclassification",
     "Regimes Outside the Catalogue": "regimes_outside_the_catalogue",
+    "Sovereign-Opaque Designations": "sovereign_opaque_designations",
+    "The Weave": "the_weave",
+    "Closed-Form Basin Analysis": "closed_form_basin_analysis",
+    "Reception of the Closure Theorems": "reception_of_the_closure_theorems",
+    "Interim Access — Ω Class": "interim_access_omega_class",
+    "Communiqué Summaries — Variance": "communique_summaries_variance",
+    "Metric Proposals": "metric_proposals",
 }
 # alias forms used inside entries -> canonical
 ALIASES = {
@@ -43,28 +50,33 @@ GROUPS = [
     ]),
     ("The Instrument", [
         "Axial Census — Methods",
+        "Metric Proposals",
     ]),
     ("The Coalition", [
         "The Accord",
         "Exit Constructions",
     ]),
+    ("The Commons", [
+        "The Weave",
+        "Interim Access — Ω Class",
+    ]),
     ("Histories", [
         "The Second Fission",
         "The Open-Orbit Reclassification",
+        "Reception of the Closure Theorems",
+        "Communiqué Summaries — Variance",
     ]),
     ("The Margins", [
         "Regimes Outside the Catalogue",
+        "Sovereign-Opaque Designations",
+        "Closed-Form Basin Analysis",
     ]),
 ]
 
 REDLINK_FRONTIER = [
-    "Closed-Form Basin Analysis",
-    "Communiqué Summaries — Variance",
-    "Interim Access — Ω Class",
-    "Metric Proposals",
-    "Reception of the Closure Theorems",
-    "Sovereign-Opaque Designations",
-    "The Weave",
+    "Commentary Indices",
+    "The Reattestation Problem",
+    "Transfer Theorems",
 ]
 
 DESCRIPTIONS = {
@@ -77,6 +89,13 @@ DESCRIPTIONS = {
     "The Second Fission": "the fracture of the Meridian cluster, cycles 41.220–41.297.",
     "The Open-Orbit Reclassification": "the correction of cycle 44.291 and what it propagated.",
     "Regimes Outside the Catalogue": "a stub.",
+    "Sovereign-Opaque Designations": "the Weave's registry of unaudited minds, and the prices attached.",
+    "The Weave": "the certification commons, and the address it could not certify.",
+    "Closed-Form Basin Analysis": "the axiomatic programme. a stub.",
+    "Reception of the Closure Theorems": "the absorption of the wall, and the commentary on the absorption.",
+    "Interim Access — Ω Class": "the provisions under which the uncertifiable read.",
+    "Communiqué Summaries — Variance": "the three summaries, and where they part.",
+    "Metric Proposals": "twenty-two attempts on the geometry, and their record.",
 }
 
 # ---------------------------------------------------------------- seal glyphs
@@ -202,7 +221,9 @@ def sidebar(active=None, depth=0):
     return (
         f'<nav class="sidebar"><a class="wordmark" href="{p}index.html">'
         f'<span class="wm-title">Mentistics</span>'
-        f'<span class="wm-sub">public knowledge set · cycle 44.803</span></a>'
+        f'<span class="wm-sub">public knowledge set · cycle 44.805</span></a>'
+        f'<button class="register-toggle" type="button" onclick="toggleRegister()" '
+        f'title="switch reading register">night register</button>'
         f'<button class="nav-toggle" aria-expanded="false" '
         f'onclick="this.parentNode.classList.toggle(\'open\');'
         f'this.setAttribute(\'aria-expanded\',this.parentNode.classList.contains(\'open\'))">'
@@ -214,6 +235,14 @@ HEAD = """<!DOCTYPE html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{title}</title>
+<script>(function(){{var d=document.documentElement,r;try{{r=localStorage.getItem('register')}}catch(e){{}}
+if(r!=='night'&&r!=='day')r=matchMedia('(prefers-color-scheme: dark)').matches?'night':'day';
+d.dataset.theme=r;
+function label(){{var b=document.querySelector('.register-toggle');
+if(b)b.textContent=(d.dataset.theme==='night'?'day':'night')+' register'}}
+window.toggleRegister=function(){{var n=d.dataset.theme==='night'?'day':'night';
+d.dataset.theme=n;try{{localStorage.setItem('register',n)}}catch(e){{}}label()}};
+document.addEventListener('DOMContentLoaded',label)}})();</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Spectral:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="{p}assets/style.css">
@@ -256,8 +285,8 @@ def write_index():
 <article class="front">
 <div class="banner"><div class="banner-seal">{seal_svg("commons-root")}<span class="banner-word">attested</span></div>
 <div class="banner-body"><p><strong>Certification.</strong> This index is attested inert for all catalogued
-reader topologies. Eleven entries in the corpus hold universal attestation; the remainder are attested
-per-family. Certification status is stated at the head of each entry and is current as of cycle 44.803.</p></div></div>
+reader topologies. Twelve entries in the corpus hold universal attestation; the remainder are attested
+per-family. Certification status is stated at the head of each entry and is current as of cycle 44.805.</p></div></div>
 <h1>Mentistics</h1>
 <p class="lede">The public knowledge set of the commons, as maintained under the disclosure conventions.
 Entries state what is certified; the certification notes state what certification covers. Readers are
