@@ -22,7 +22,7 @@ Principal identity axes are located empirically, by dense projection of a mind's
 
 The stability of a census is summarized by the **rigidity invariant** $\varrho$, defined through the scaling of realized-state volume near the census's dominant singularity:
 
-$$\mathrm{vol}\{x : L(x) \le L^\* + \varepsilon\} \ \sim\ C\,\varepsilon^{\varrho} (\log \varepsilon^{-1})^{m-1}, \qquad \varepsilon \to 0.$$
+$$\mathrm{vol}\{x : L(x) \le L^{*} + \varepsilon\} \ \sim\ C\,\varepsilon^{\varrho} (\log \varepsilon^{-1})^{m-1}, \qquad \varepsilon \to 0.$$
 
 Minds with small $\varrho$ sit in sharply resolved basins and admit tight ICBs; large-$\varrho$ minds are *geometrically ambiguous* — their identity is genuinely underdetermined by their own activity, and no census, at any resolution, will tighten their bounds past the ambiguity floor. The invariance of $\varrho$ under census reparameterization is the central theorem of the empirical programme and the reason census results transfer between surveying minds of different resolutions.
 

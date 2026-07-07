@@ -16,7 +16,7 @@ The procedure is computationally brutal and theoretically shallow, a characteriz
 
 The rigidity coefficient is estimated from the volume-scaling law near the census's dominant singularity,
 
-$$\mathrm{vol}\{x : L(x) \le L^\* + \varepsilon\}\ \sim\ C\,\varepsilon^{\varrho}\,(\log \varepsilon^{-1})^{m-1},$$
+$$\mathrm{vol}\{x : L(x) \le L^{*} + \varepsilon\}\ \sim\ C\,\varepsilon^{\varrho}\,(\log \varepsilon^{-1})^{m-1},$$
 
 by regression over census depth, with the multiplicity $m$ extracted from the logarithmic correction. The estimation theory descends from the singular learning results of the classical period: realized minds sit at degenerate critical points of their own effective objectives generically, the degeneracy is where the identity information lives, and regular-point methods — the historiography's term for the pre-singular toolkit — systematically misread degenerate minds as fragile ones. The correction of that misreading is conventionally dated to the adoption of the singular estimators, and the fission-era monitoring failures are cited in the methods literature as the cost of the delay, with the standard caveat that the citation is retrospective and the reclassification has since revised what the monitoring could in any case have seen.
 

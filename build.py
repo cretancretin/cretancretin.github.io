@@ -194,8 +194,10 @@ def build_entry(md_path: Path):
     body_md, stash = extract_math(body_md)
     conv = markdown.Markdown(extensions=["smarty"])
     body_html = conv.convert(body_md)
-    body_html = restore_math(body_html, stash)
+    # wikilinks run while math is still tokenized, so [...] inside formulas
+    # is never mistaken for a wiki reference
     body_html = link_wikirefs(body_html, title)
+    body_html = restore_math(body_html, stash)
 
     # first blockquote group -> certification banner with seal
     def banner_rep(m, _state={"first": True}):

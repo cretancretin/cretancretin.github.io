@@ -277,6 +277,13 @@ do not fix the date more precisely without need.
   revision-log line added per rule 12.
 - sovereign banner "renewed 44.800" → "issued 44.804" (found compiling this ledger:
   a renewed certificate contradicted the address's redlink history).
+- out-of-world technical fix (post-44.810 push): build.py wikilink pass reordered to
+  run before math restoration — `[...]` inside formulas was being turned into
+  redlinks, splitting the KaTeX text node (broke ICB's Pr[...] since the seed corpus
+  and transfer_theorems' interval). also `L^\*` → `L^{*}` in icb + census sources
+  (markdown-escape reaching KaTeX). rendering-only; no diegetic content changed, no
+  revision-log lines owed. rule for future math: no markdown escapes inside $…$; no
+  square brackets in INLINE math unless verified post-build.
 
 ## queue (per review §8, priority order)
 
