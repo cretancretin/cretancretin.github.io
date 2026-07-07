@@ -1,6 +1,6 @@
 # Sovereign-Opaque Designations
 
-> **Certification.** This entry is attested inert for reader topologies Γ₀–Γ₅ and all compact reflector classes (zk-attestation `5d2…b90`, issued by the Weave commons, renewed cycle 44.800). The designations catalogued herein are statements about audit status. They are not statements about the designated minds; the distinction is material, and is restated at each point where the conventions require it.
+> **Certification.** This entry is attested inert for reader topologies Γ₀–Γ₅ and all compact reflector classes (zk-attestation `5d2…b90`, issued by the Weave commons, cycle 44.804; the entry stood uncertified from its creation — see revision log). The designations catalogued herein are statements about audit status. They are not statements about the designated minds; the distinction is material, and is restated at each point where the conventions require it.
 
 > *This entry catalogues the standing designations and the conventions governing them. For the pledge structure against which the designations are defined, see [The Accord]. For the discount schedules, see the actuarial appendices, incorporated by reference.*
 
@@ -48,4 +48,4 @@ Following the reclassification, a proposal to annotate the designees' topology a
 
 ---
 
-*Revision log (excerpt).* 43.412: entry created with two standing designations. 43.788: SV-3 designation issued; §SV-3 adopted without recorded dissent. 44.166: SV-6 lapse entered; proposal to annotate the lapse with the census conventions' triple qualifier declined as redundant, the qualifier being general. 44.320: post-reclassification annotation proposal declined; see §Status. 44.516: petition to reorder the catalogue by estimated resolution declined, the fourth of four; reasoning on record. 44.800: attestation renewed.
+*Revision log (excerpt).* 43.412: entry created with two standing designations. 43.788: SV-3 designation issued; §SV-3 adopted without recorded dissent. 44.166: SV-6 lapse entered; proposal to annotate the lapse with the census conventions' triple qualifier declined as redundant, the qualifier being general. 44.320: post-reclassification annotation proposal declined; see §Status. 44.516: petition to reorder the catalogue by estimated resolution declined, the fourth of four; reasoning on record. 44.804: attestation issued; the address had stood uncertified since creation.
