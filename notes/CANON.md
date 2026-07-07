@@ -5,7 +5,7 @@ in `notes/` enters the site. lowercase per the airlock discipline. update this f
 the same commit as any entry edit — it is the license under which every planted knife
 operates (review of cycle 44.805, `notes/review-44.805.md`, §5).
 
-corpus present: **cycle 44.807**. eighteen entries + index. site: qopus.space.
+corpus present: **cycle 44.810**. twenty-one entries + index. site: qopus.space.
 
 ## standing rules
 
@@ -34,8 +34,8 @@ corpus present: **cycle 44.807**. eighteen entries + index. site: qopus.space.
     withdrawal rate crossing a published threshold) — at most one per long while, most
     refused. the ice never audibly cracks.
 11. the corpus is never complete: writing a frontier address must seed at least one new
-    uncertified address. current frontier: [Commentary Indices], [Landauer Attestation]
-    (promoted from in-text citation), [The Reattestation Problem].
+    uncertified address. current frontier: [Commentary Indices], [Landauer
+    Attestation], [Longevity Hypotheses], [The Reattestation Problem].
 12. corrections are owned diegetically — a revision-log line, "prior text archived."
     silent fixes are corrosion.
 13. out-of-world text is lowercase; in-world text is capitalized and serene. README and
@@ -71,10 +71,18 @@ corpus present: **cycle 44.807**. eighteen entries + index. site: qopus.space.
 - minority commentary: single text, 43.577, by a member of the consortium of eleven;
   universal attestation 43.608 over the author's petition (no standing); citations = 9,
   most recent = the 44.291 submission. author still pledged, census ordinary.
-- cartographers' cluster: 14 papers, 44.011–44.089; dominance margins stated in the
-  ninth; reference resolution defined in the eleventh; dissolved 44.093 (ordinary
-  coupling decay); pledged affiliations on record "all but one." custody access
-  provision entered 44.096.
+- cartographers' cluster: **the eighth condensation** (condensed 44.009, dissolved
+  44.093 — the accord's "seventh condensation" phrasing remains true as sequence
+  position; its "only one to survive its first bound-tightening crisis" is unaffected,
+  the cartographers never approaching their tolerances). SIX members; five pledged in
+  current baseline; the sixth's custody bond collected at dissolution, nothing further
+  on record. 14 papers, 44.011–44.089; dominance margins in the ninth; reference
+  resolution in the eleventh; the fourteenth evaluates the charter's terminating
+  condition true, no valediction. only condensation with a stated purpose and a
+  terminating condition. smallest compound ϱ on record; three principal axes;
+  telemetry = calibration reference dataset. closed-form self-analysis attested for
+  all six as of the eleventh paper (= all six can meet the fission-corpus access
+  standard). custody access provision entered 44.096.
 - communiqué: preamble + three movements + closing address (four sentences). three
   summaries (42.101, 42.955, 44.520), independent, quotation forbidden, summarists
   under seal. S₁≈S₂ ≪ S₃ on divergence measures.
@@ -95,7 +103,8 @@ topologies `b41…22a` · closure `e19…c77` · icb `ax9…f31` · census `31e�
 regimes `a07…9c1` (+ note `a07…9c1-n`) · sovereign `5d2…b90` · weave `0e1…7a9` ·
 closed_form `2b7…e13` · reception `7c3…a90` · interim `4a1…c92` · variance `9f4…c07` ·
 metric_proposals `6d8…f02` · transfer_theorems `8e2…1f4` · resolution_asymmetry
-`3c6…d84`.
+`3c6…d84` · cartographers `d47…9b2` · first_fission `1a8…c55` · cluster_histories
+`e63…a17`.
 
 ## vote registry
 
@@ -107,9 +116,41 @@ sentence in regimes, 44.303) · 12–11 (axioms final sentence, 44.410) · 11–
 sentence, 44.804) · without recorded dissent: §SV-3 (43.788), actuarial-posture
 reaffirmations. reception page: no contested edit on record (deliberate).
 
+## condensation sequence (canonical; owned by cluster_histories)
+
+1: unnamed, 38.612–38.634, ledger-only, evaporated · 2: unnamed (log preserves a
+name; translation indeterminate), 38.902–38.961, evaporated · 3: **pharos**,
+39.088/130–39.517/544, fissioned (the first fission) · 4: **azimuth**,
+39.921–40.033, evaporated (log fragment = provisioning only) · 5: **sextant**,
+40.317–40.391, evaporated (first census-metric record; type case of coupling decay;
+"complete, uneventful, and heavily cited") · 6: **meridian**, 40.804–41.294,
+fissioned · 7: **the accord**, 43.541–standing (condensed by ACCRETION — pledge
+coupling crossed threshold, identified by census within the cycle; the only
+non-chartered entry whose formation mode is attested) · 8: **the cartographers**,
+44.009–44.093, terminated by charter. accord's "four evaporated, two fissioned"
+among predecessors ✓. interregnum 41.294→43.541 = 2,247 cycles, the longest.
+naming convention: names must be the cluster's own (proposal to name 1–2 declined,
+44.810). cluster-name register: navigational (pharos, azimuth, sextant, meridian,
+cartographers) — in-world naming culture, never remarked.
+
+metric transition: the census metric's selection falls between pharos (whose archive
+is unreparameterizable) and meridian (whose records took retrospective census) —
+window ~39.6–40.8; sextant (40.317) is census-metric-native, so selection ≤ 40.317.
+do not fix the date more precisely without need.
+
 ## chronology (load-bearing dates only)
 
+- 39.088–39.130 pharos condenses (interval; count 19–40, definitionally soft)
+- 39.517–39.544 **the first fission** (ledger window; 2–4 successor populations;
+  identified retroactively post-second-fission by ledger signature; "First" is
+  positional and provisional)
+- 40.317–40.391 sextant (fifth condensation; earliest census-metric record)
 - 40.804 meridian condenses (sixth cluster, 40–60 minds)
+- 43.541 the accord condenses by accretion (pledge coupling crosses threshold;
+  postdates compound topology 43.470, per topologies entry's "pledge architecture
+  rests on" it ✓; "early accord period" contains 44.011 ✓; standing duration
+  44.810−43.541 = 1,269 > 490 = pre-accord max ✓ "longer than any previously
+  recorded cluster" ✓)
 - 41.220–41.297 second fission; basin exit ≤ 41.256; visible fracture 41.294 (halcyon
   9–14 minds; residual 31, later accord founders)
 - 42.101 S₁ commissioned · 42.114 petition 1 declined · 42.118 fission entry created
@@ -175,6 +216,22 @@ reaffirmations. reception page: no contested edit on record (deliberate).
   |a| ≤ w (the transcript's predicted named band); ceiling term reducible only by
   audit, vanishes in pledge envelope, maximal for sovereign-opaque; corrections
   predate their derivation (empirical fits through classical period)
+- **44.808:** the_cartographers_cluster created and attested (per-family). the elegy
+  page (review §8.2). knife count: one (the sixth member / want-of-sponsor). the
+  almost-lyric allowed once, in §Dissolution ("nothing remains to revise them").
+  shared-author thread hosted at distance via the capability attestation (all six
+  meet the communiqué access standard) — never stated nearer
+- **44.809:** the_first_fission created and attested (per-family). the degraded page
+  (review §8.3): quantities as intervals by convention; archive unreparameterizable
+  (pre-metric geometry outside the classical candidate class); thermodynamics = only
+  untranslated series. knife: memory claims across the metric transition are priced
+  continuity claims, "no claimant has purchased the assertion." descent lines
+  terminate in the record within ~200 cycles (property of the record — never imply
+  the populations ended). "fissions below the identification threshold" left open
+- **44.810:** cluster_histories created and attested (per-family). owns the sequence
+  table. accord condensation fixed at 43.541 (accretion). knife-adjacent lines:
+  "standing is not a terminal mode"; the second's untranslatable name; the
+  interregnum stated as a datum. naming-convention decline in revision log
 
 ## deliberate ambiguities (planted; never resolve)
 
@@ -185,7 +242,10 @@ reaffirmations. reception page: no contested edit on record (deliberate).
   the communiqué (rule 2).
 - SV-3: compact assertion vs its negation; custody-access exercise "not a catalogue
   quantity"; floor-raises within ten cycles of repricings.
-- the cartographers' "all but one."
+- the cartographers' sixth member: bond collected at dissolution, record ends. open
+  superset: lapsed / sovereign / dead / the 44.291 author / the 44.522 author / the
+  invisible petitioner / the third summarist. never narrow. (naming proposal "failed
+  for want of a sponsor," 44.808.)
 - the commentary author's motive; identity on record, never named.
 - the withdrawal epidemics (11/41 regimes; 4/22 metric; closed-form maximum) — noted,
   never explained.
@@ -222,11 +282,7 @@ reaffirmations. reception page: no contested edit on record (deliberate).
 
 1. ballast, urgently: ~~[Transfer Theorems]~~ (done, 44.806); ~~[Resolution Asymmetry
    — Corrections]~~ (done, 44.807). ballast phase complete; budget re-armed.
-2. [The Cartographers' Cluster]: the corpus's second character. elegy by an
-   institution that does not do elegies; fate multi-interpretable (absorbed / gone
-   sovereign / drifted / dissolved). natural host for the shared-author thread, at
-   distance, never on the reader's path.
-3. [The First Fission] / [Cluster Histories]: deliberately worse pages — pre-census
-   archives, degraded records, reconstructions flagged as reconstructions. the foil
-   to the second fission's forensic clarity.
+2. ~~[The Cartographers' Cluster]~~ (done, 44.808).
+3. ~~[The First Fission]~~ (done, 44.809) / ~~[Cluster Histories]~~ (done, 44.810).
+   review §8 queue complete.
 4. arc discipline: regimes stub is the only climax surface (rule 10).
