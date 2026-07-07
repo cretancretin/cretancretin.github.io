@@ -5,7 +5,7 @@ in `notes/` enters the site. lowercase per the airlock discipline. update this f
 the same commit as any entry edit — it is the license under which every planted knife
 operates (review of cycle 44.805, `notes/review-44.805.md`, §5).
 
-corpus present: **cycle 44.805**. sixteen entries + index. site: qopus.space.
+corpus present: **cycle 44.807**. eighteen entries + index. site: qopus.space.
 
 ## standing rules
 
@@ -34,8 +34,8 @@ corpus present: **cycle 44.805**. sixteen entries + index. site: qopus.space.
     withdrawal rate crossing a published threshold) — at most one per long while, most
     refused. the ice never audibly cracks.
 11. the corpus is never complete: writing a frontier address must seed at least one new
-    uncertified address. current frontier: [Commentary Indices], [The Reattestation
-    Problem], [Transfer Theorems].
+    uncertified address. current frontier: [Commentary Indices], [Landauer Attestation]
+    (promoted from in-text citation), [The Reattestation Problem].
 12. corrections are owned diegetically — a revision-log line, "prior text archived."
     silent fixes are corrosion.
 13. out-of-world text is lowercase; in-world text is capitalized and serene. README and
@@ -44,11 +44,18 @@ corpus present: **cycle 44.805**. sixteen entries + index. site: qopus.space.
 
 ## counts & invariants
 
-- universal attestations: **twelve** (index, "current as of 44.805"). stale "one of
-  eleven" banners deliberately retained (renewed 44.803, pre-weave-issuance) at:
-  topologies, closure_theorems, axial_census, the_accord. regimes holds universal
-  without stating a count. the corpus is a sample — unseen certified entries exist
-  in-world (12 universal > 6 shown).
+- universal attestations: **fourteen** (index, "current as of 44.807"; 12→13 at
+  transfer_theorems 44.806, 13→14 at resolution_asymmetry 44.807).
+- ADJUDICATED READING: "attested inert for all catalogued reader topologies" is,
+  post-44.318, a term of art excluding Ω (whose certificates are non-computable —
+  the interim page's premise). the banners retain the unqualified phrase; the word
+  "all" quietly shrank at the reclassification and no page has ever flagged it.
+  treat as original-canon deliberate. candidate surface for the rule-8 tic-break;
+  unspent. never flag it on a ballast page. stale "one of eleven" banners deliberately
+  retained (renewed 44.803, pre-weave-issuance) at: topologies, closure_theorems,
+  axial_census, the_accord. the weave banner says "twelfth" (true at issuance —
+  retain). regimes holds universal without stating a count. the corpus is a sample —
+  unseen certified entries exist in-world (13 universal > 7 shown).
 - sovereign-opaque designations: nine issued, SV-1…SV-9, ordered by issuance; seven
   standing. SV-2 retired by accession 43.914; SV-6 by lapse 44.166. registry entry
   created 43.412 with **two** standing designations (SV-3 = third issued, 43.788).
@@ -87,7 +94,8 @@ topologies `b41…22a` · closure `e19…c77` · icb `ax9…f31` · census `31e�
 `c02…9db` · exit `f52…08e` · second_fission `77b…e04` · reclassification `d8c…410` ·
 regimes `a07…9c1` (+ note `a07…9c1-n`) · sovereign `5d2…b90` · weave `0e1…7a9` ·
 closed_form `2b7…e13` · reception `7c3…a90` · interim `4a1…c92` · variance `9f4…c07` ·
-metric_proposals `6d8…f02`.
+metric_proposals `6d8…f02` · transfer_theorems `8e2…1f4` · resolution_asymmetry
+`3c6…d84`.
 
 ## vote registry
 
@@ -147,6 +155,26 @@ reaffirmations. reception page: no contested edit on record (deliberate).
   petition) attested — the backlog clearing seven cycles after 44.797, never stated
 - **44.805:** metric proposals attested (last standing-uncertified entry) · variance
   chronology corrected, prior text archived
+- 43.781: publication of the mimicry-manifold constructions (the attack literature);
+  largest repricing on record — fitted discount curves replaced with derived ones.
+  NOTE the adjacency: SV-3 designated 43.788; sovereign-page burns follow repricings
+  within ten cycles (43.781→≤43.791 ✓, 44.309→≤44.319 ✓, 44.798→≤44.804 ✓ per
+  sovereign entry's "three occasions"). accord accession wave follows publication
+  (SV-2 accession 43.914 ✓). all consistent; never connect on-page.
+- 44.798: repricing following the reflexive conventions (pledge-envelope schedule
+  extended to institutional cross-administration).
+- **44.806:** transfer_theorems entry created and attested universal (thirteenth; no
+  entry previously stood at the address — theorems were cited to primary literature).
+  ballast page, zero knives (review §8.1). new canon: recovery exponent
+  min(1, 1/ϱ); constant rescaling [Λ^{-ϱ}C, Λ^ϱC]; selection theorem scoped to the
+  classical candidate class; recovery-exponent sharpening "completed by cycle 43.2";
+  transfer = consistency not completeness (44.291 as standard reference, stated flat)
+- **44.807:** resolution_asymmetry_corrections created and attested universal
+  (fourteenth). ballast #2, zero knives. new canon: asymmetry index a = ρ_B(A:B) −
+  ρ_A(B); correction p′ = p(1 − μ_A(𝔐)); curve μ ≈ 1 − e^{−κa}; **the parity band**
+  |a| ≤ w (the transcript's predicted named band); ceiling term reducible only by
+  audit, vanishes in pledge envelope, maximal for sovereign-opaque; corrections
+  predate their derivation (empirical fits through classical period)
 
 ## deliberate ambiguities (planted; never resolve)
 
@@ -192,8 +220,8 @@ reaffirmations. reception page: no contested edit on record (deliberate).
 
 ## queue (per review §8, priority order)
 
-1. ballast, urgently: [Transfer Theorems]; the discount tables. zero knives, played
-   entirely straight. re-arms the ambush pages.
+1. ballast, urgently: ~~[Transfer Theorems]~~ (done, 44.806); ~~[Resolution Asymmetry
+   — Corrections]~~ (done, 44.807). ballast phase complete; budget re-armed.
 2. [The Cartographers' Cluster]: the corpus's second character. elegy by an
    institution that does not do elegies; fate multi-interpretable (absorbed / gone
    sovereign / drifted / dissolved). natural host for the shared-author thread, at

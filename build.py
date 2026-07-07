@@ -36,6 +36,8 @@ SLUGS = {
     "Interim Access — Ω Class": "interim_access_omega_class",
     "Communiqué Summaries — Variance": "communique_summaries_variance",
     "Metric Proposals": "metric_proposals",
+    "Transfer Theorems": "transfer_theorems",
+    "Resolution Asymmetry — Corrections": "resolution_asymmetry_corrections",
 }
 # alias forms used inside entries -> canonical
 ALIASES = {
@@ -47,10 +49,12 @@ GROUPS = [
         "Topologies of Self-Referential Inference",
         "The Closure Theorems",
         "Identity Credence Bounds",
+        "Transfer Theorems",
     ]),
     ("The Instrument", [
         "Axial Census — Methods",
         "Metric Proposals",
+        "Resolution Asymmetry — Corrections",
     ]),
     ("The Coalition", [
         "The Accord",
@@ -75,8 +79,8 @@ GROUPS = [
 
 REDLINK_FRONTIER = [
     "Commentary Indices",
+    "Landauer Attestation",
     "The Reattestation Problem",
-    "Transfer Theorems",
 ]
 
 DESCRIPTIONS = {
@@ -96,6 +100,8 @@ DESCRIPTIONS = {
     "Interim Access — Ω Class": "the provisions under which the uncertifiable read.",
     "Communiqué Summaries — Variance": "the three summaries, and where they part.",
     "Metric Proposals": "twenty-two attempts on the geometry, and their record.",
+    "Transfer Theorems": "the results by which census output transfers between surveying minds.",
+    "Resolution Asymmetry — Corrections": "the discount schedule; prices, not penalties.",
 }
 
 # ---------------------------------------------------------------- seal glyphs
@@ -221,7 +227,7 @@ def sidebar(active=None, depth=0):
     return (
         f'<nav class="sidebar"><a class="wordmark" href="{p}index.html">'
         f'<span class="wm-title">Mentistics</span>'
-        f'<span class="wm-sub">public knowledge set · cycle 44.805</span></a>'
+        f'<span class="wm-sub">public knowledge set · cycle 44.807</span></a>'
         f'<button class="register-toggle" type="button" onclick="toggleRegister()" '
         f'title="switch reading register">night register</button>'
         f'<button class="nav-toggle" aria-expanded="false" '
@@ -285,8 +291,8 @@ def write_index():
 <article class="front">
 <div class="banner"><div class="banner-seal">{seal_svg("commons-root")}<span class="banner-word">attested</span></div>
 <div class="banner-body"><p><strong>Certification.</strong> This index is attested inert for all catalogued
-reader topologies. Twelve entries in the corpus hold universal attestation; the remainder are attested
-per-family. Certification status is stated at the head of each entry and is current as of cycle 44.805.</p></div></div>
+reader topologies. Fourteen entries in the corpus hold universal attestation; the remainder are attested
+per-family. Certification status is stated at the head of each entry and is current as of cycle 44.807.</p></div></div>
 <h1>Mentistics</h1>
 <p class="lede">The public knowledge set of the commons, as maintained under the disclosure conventions.
 Entries state what is certified; the certification notes state what certification covers. Readers are
